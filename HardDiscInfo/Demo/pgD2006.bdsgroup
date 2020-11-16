@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{CF3EAA17-0D8D-4CE8-8BC5-131D3C6E0703}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="GLibD2006.bpl">..\Package\GLibD2006.bdsproj</Projects>
+      <Projects Name="Demo_DiskInfo.exe">Demo_DiskInfo.bdsproj</Projects>
+      <Projects Name="Targets">GLibD2006.bpl Demo_DiskInfo.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

@@ -1,0 +1,56 @@
+TKeysOnForm v.1.0 
+========================= 
+Copyright © Germán Estévez (Neftalí).  All the copyrights.  
+German_ral@hotmail.com 
+Future versions of the component in: 
+http://neftali.clubdelphi.com/delphi_componentes.html
+
+CONTACT 
+========================= 
+  Please, if you have suggestions or errors on this component send me a mail with 
+the proposed/explanation to the direccion: 
+  german_ral@hotmail.com 
+  When correct him or expand I will cause I will arrive you a message of updating.  
+  Thanks.  
+    
+
+DESCRIPTION 
+========================= 
+  Permits to negotiate of simple form (without code) some of the most utilized
+combinations of keys in the forms.  It suffices with freeing the component on 
+the form and to activate the properties desired segun the behavior that want.  
+
+	* ENTER to change of field.  
+	* ESC to close the form 
+	* to Advance al following control 
+	* to Delay al previous control 
+	* function Keys 
+	*.. .
+
+HISTORICAL 
+=========================
+
+1.0: 	12/02/2003 Creation.  
+	30/06/2005 Revision and comments.  
+
+LICENSE 
+========================= 
+TKeysOnForm component is freeware. You may copy component's files AS
+LONG AS YOU COPY ALL OF THEM. If you want to change the source code in
+order to improve the component's features, performance, etc. please
+send me the new source code so that I can have a look at it. The
+changed source code should contain descriptions what you have changed,
+and of course your name. The only thing you MAY NOT CHANGE is the
+ORIGINAL COPYRIGHT INFORMATION.
+
+
+NOTICE 
+========================== 
+
+TKeysOnForm is provided "AS IS" without any warranty of any kind,
+either express or implied. The entire risk as to the quality and
+performance of the software is with you. The author is NOT liable for
+any DAMAGES resulting from the use and misuse of the component,
+especially he is NOT liable for DAMAGES that were caused BY ANY
+VERSION WHICH HAS NOT BEEN PROGRAMMED BY THE AUTHOR HIMSELF.
+

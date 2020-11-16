@@ -1,0 +1,26 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Demo_CustomizeGrid.exe GLibD6.bpl Demo2_CustomizeGrid.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Demo_CustomizeGrid.exe: Demo_CustomizeGrid.dpr
+  $(DCC)
+
+GLibD6.bpl: ..\Package\GLibD6.dpk
+  $(DCC)
+
+Demo2_CustomizeGrid.exe: Demo2_CustomizeGrid.dpr
+  $(DCC)
+
+

@@ -1,0 +1,65 @@
+TLogDisk  Component Version 1.3
+===========================================================
+Copyright © Germán Estévez (Neftalí). Todos los derechos reservados.
+German_ral@hotmail.com
+Futuras versiones del componente en:
+http://neftali.clubdelphi.com/
+
+
+CONTACTO
+=========================
+  Por favor, si tienes sugerencias o errores sobre éste componente hazme llegar un
+correo con la propuesta/explicación a la direccion:
+  german_ral@hotmail.com
+  Cuando los corrija o amplie te haré llegar un mensaje de actualización.
+  Gracias.
+  
+
+DESCRIPCION
+=========================
+  Permite crear un fichero de los de la aplicación con operaciones mínimas por parte 
+del programador. Basta con colocarel componente en el formulario y activarlo.
+  Posee diferentes propiedades que permiten modificar la forma en que se graba, 
+ el nombre del fichero, su ubicación,...
+
+
+Utilización/Usage:
+  Coloque el componente en el frmulario y activelo.
+  Place the component in the form and enable it.  
+  
+  
+HISTORIAL
+=========================
+
+  11/05/2009  Versión 1.3
+  	- Permitir grabación continua de ficheros (Accumulative).
+    - Propiedades para permitir o no grabar pie y cabecera.
+
+
+  23/03/2009  * version 1.2
+      - Añadido evento para cuando se añaden Strings al Log
+      - Ampliar los procedimientos para añadir datos al Log. Más datos y más flexibles.
+      - Evento que "salta" al guardar el Log a disco.
+              
+
+  04/03/2009  * Creación. 
+
+
+LICENSE
+=========================
+TSaveComps component is freeware. You may copy component's files AS
+LONG AS YOU COPY ALL OF THEM. If you want to change the source code in
+order to improve the component's features, performance, etc. please
+send me the new source code so that I can have a look at it. The
+changed source code should contain descriptions what you have changed,
+and of course your name. The only thing you MAY NOT CHANGE is the
+ORIGINAL COPYRIGHT INFORMATION.
+
+ADVICE
+==========================
+TSaveComps is provided "AS IS" without any warranty of any kind,
+either express or implied. The entire risk as to the quality and
+performance of the software is with you. The author is NOT liable for
+any DAMAGES resulting from the use and misuse of the component,
+especially he is NOT liable for DAMAGES that were caused BY ANY
+VERSION WHICH HAS NOT BEEN PROGRAMMED BY THE AUTHOR HIMSELF.

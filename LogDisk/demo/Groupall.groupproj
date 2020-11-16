@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{86C4B11B-2C6A-442F-9E38-B94B98AFF96B}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="PEditor.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Package\GLibD2009.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="PEditor">
+			<MSBuild Projects="PEditor.dproj"/>
+		</Target>
+		<Target Name="PEditor:Clean">
+			<MSBuild Targets="Clean" Projects="PEditor.dproj"/>
+		</Target>
+		<Target Name="PEditor:Make">
+			<MSBuild Targets="Make" Projects="PEditor.dproj"/>
+		</Target>
+		<Target Name="GLibD2009">
+			<MSBuild Projects="..\Package\GLibD2009.dproj"/>
+		</Target>
+		<Target Name="GLibD2009:Clean">
+			<MSBuild Targets="Clean" Projects="..\Package\GLibD2009.dproj"/>
+		</Target>
+		<Target Name="GLibD2009:Make">
+			<MSBuild Targets="Make" Projects="..\Package\GLibD2009.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="PEditor;GLibD2009"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="PEditor:Clean;GLibD2009:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="PEditor:Make;GLibD2009:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

@@ -1,0 +1,3 @@
+// Fichero .RC con los recursos
+SORT_ASC         BITMAP  "Resources\Sort_Asc.bmp"
+SORT_DESC        BITMAP  "Resources\Sort_Desc.bmp"

@@ -1,0 +1,4 @@
+[dbase]
+MDX=biolife
+UIDX=BIOLIFE_PX
+PRIMARY=BIOLIFE_PX

@@ -1,0 +1,67 @@
+[DSP upload]
+File Name=tdiskindo
+Replace File=
+File Status=Freeware
+Full Source Included=Y
+Version=1.2
+count=5
+1=This component allows to retrieve various information about System
+2=Drives. Hard Disks, local, floppy disk, network drives, RAM Drives...
+3=Can retrieve information about Volume, Serial Number, free/occupied
+4=Space, labels, icon of system, Clusters, Sectors... and more.
+5=Place it in a form and define the drive letter.
+Note=This component allows to retrieve various information about System Drives. Hard Disks, local, floppy disk, network drives, RAM Drives, Serial Number and Volume Number...
+Additional info=
+Category=System Components Win API based
+Platform=
+Group=Component/Code
+Delphi 1.0x=N
+Delphi 2.0x=N
+Delphi 3.0x=N
+Delphi 4.0x=N
+Delphi 5.0x=N
+Delphi 6.0x=Y
+Delphi 7.0x=N
+Delphi 8.0x=N
+Delphi 2005=Y
+C++ Builder 1.0x=N
+C++ Builder 3.0x=N
+C++ Builder 4.0x=N
+C++ Builder 5.0x=N
+C++ Builder 6.0x=N
+Kylix 1.0=N
+Kylix 2.0=N
+Kylix 3.0=N
+JBuilder 6.0x=N
+
+vers 1.2: Corrected bug on retrieve letters from differents drives.
+[DSP Support]
+DSP Support=Y
+[Uploader_1]
+Author name=Neftalí -Germán Estévez-
+Contact=
+Author E-mail=german_ral@hotmail.com
+Author URL=http://neftali.clubdelphi.com
+count=1
+1=Programmer  from Spain.
+Author Section=Delphi "Services"
+UpdateDSP=Y
+[Versions available]
+Delphi 1.0x=
+Delphi 2.0x=
+Delphi 3.0x=
+Delphi 4.0x=
+Delphi 5.0x=
+Delphi 6.0x=
+Delphi 7.0x=
+Delphi 8.0x=
+Delphi 2005=
+C++ Builder 1.0x=
+C++ Builder 3.0x=
+C++ Builder 4.0x=
+C++ Builder 5.0x=
+C++ Builder 6.0x=
+Kylix 1.0=
+Kylix 2.0=
+Kylix 3.0=
+JBuilder 6.0x=

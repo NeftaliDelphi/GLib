@@ -1,0 +1,56 @@
+package GLibD2007;
+
+{$R *.res}
+{$R 'SaveComps\Sources\CSaveComps.dcr'}
+{$R 'SelectOnRunTime\Sources\CSelectOnRunTime.dcr'}
+{$R 'KeysOnForm\Sources\CKeysOnForm.dcr'}
+{$R 'CustomizeGrid\Sources\CGCur.RES'}
+{$R 'CustomizeGrid\Sources\CGRes.RES'}
+{$R 'HardDiscInfo\Sources\CDiskInfo.dcr'}
+{$R 'SortListBox\Sources\CSortListBox.dcr'}
+{$R 'EditInsideHelp\Sources\CEditInsideHelp.dcr'}
+{$R 'InactivityApp\Sources\CInactivityApp.dcr'}
+{$R 'PanelCuadr\Sources\CPanelCuad.dcr'}
+{$R 'LogDisk\Sources\CLogDisk.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL ON}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION '_Package de componentes de Neftali'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  dbrtl,
+  vcldb;
+
+contains
+  CSaveComps in 'SaveComps\Sources\CSaveComps.pas',
+  CSelectOnRunTime in 'SelectOnRunTime\Sources\CSelectOnRunTime.pas',
+  CKeysOnForm in 'KeysOnForm\Sources\CKeysOnForm.pas',
+  CustomizeGrid in 'CustomizeGrid\Sources\CustomizeGrid.pas',
+  CDiskInfo in 'HardDiscInfo\Sources\CDiskInfo.pas',
+  CSortListBox in 'SortListBox\Sources\CSortListBox.pas',
+  CEditInsideHelp in 'EditInsideHelp\Sources\CEditInsideHelp.pas',
+  CInactivityApp in 'InactivityApp\Sources\CInactivityApp.pas',
+  CPanelCuad in 'PanelCuadr\Sources\CPanelCuad.pas',
+  CLogDisk in 'LogDisk\Sources\CLogDisk.pas';
+
+end.

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{17CD8C16-7839-4CDB-835F-84B535A29167}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="GLibD2006.bpl">..\Package\GLibD2006.bdsproj</Projects>
+      <Projects Name="Demo_CustomizeGrid.exe">Demo_CustomizeGrid.bdsproj</Projects>
+      <Projects Name="Demo2_CustomizeGrid.exe">Demo2_CustomizeGrid.bdsproj</Projects>
+      <Projects Name="Targets">GLibD2006.bpl Demo_CustomizeGrid.exe Demo2_CustomizeGrid.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

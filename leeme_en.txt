@@ -1,4 +1,4 @@
-Package Glib for Delphi 6,7,2005,2005
+Package Glib for Delphi 6,7,..., 10.X
 =============================================
 Copyright © Germán Estévez (Neftalí). All Right reserved.
 German_ral@hotmail.com

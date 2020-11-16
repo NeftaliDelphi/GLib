@@ -1,5 +1,5 @@
 # GLib
-GLib es una librería/biblioteca de componentes para elphi de uso general.
+GLib es una librería/biblioteca de componentes para Delphi de uso general.
 
 Son de uso gratuito y de licencia libre.
 

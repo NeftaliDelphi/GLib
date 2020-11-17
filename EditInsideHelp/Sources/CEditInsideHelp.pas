@@ -176,7 +176,7 @@ end;
 procedure TEditInsideHelp.WMPaint(var Message: TWMPaint);
 var
   MCanvas: TControlCanvas;
-  DrawBounds: TRect;
+  //DrawBounds: TRect;
 begin
 
   // Casos en los que no hacemos nada
@@ -188,7 +188,7 @@ begin
   inherited;
 
   MCanvas := TControlCanvas.Create;
-  DrawBounds := ClientRect;
+  //DrawBounds := ClientRect;
 
   // proteccion
   try

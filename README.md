@@ -1,4 +1,7 @@
 # GLib
+
+__NOTA (18/11/2020):__ Actualmente el desarrollo de esta librería está detenido. Esta libreríasEl código es público por si alguien decide revisarlo, corregirlo, estudiarlo o modificarlo a su gusto. Si haces alguna modificación o mejora te agradecería que me lo comunicaras para añadirla.
+
 GLib es una librería/biblioteca de componentes para Delphi de uso general.
 
 Son de uso gratuito y de licencia libre.

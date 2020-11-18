@@ -1,7 +1,6 @@
 package GLibD6;
 
 {$R *.res}
-{$R '..\Source\CPanelCuad.dcr'}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL ON}

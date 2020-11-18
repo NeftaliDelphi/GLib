@@ -1,6 +1,6 @@
 {
-TCustomizeGrid  Component Version 1.3 - Suite GLib
-Copyright (©) 2005-2006,  by Germán Estévez (Neftalí)
+TCustomizeGrid  Component Version 1.4 - Suite GLib
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite modificar algunos aspectos en la visualización de un Grid estandard. No
 deriva del Grid, si no que funciona como complemento al componente estandard de
@@ -173,7 +173,7 @@ type
     FOwner:TCustomizeGrid;
     // Métodos privados de las propiedades
     procedure SetActive(const Value: Boolean);
-    procedure SetTheme(const Value: TGridTheme);
+    // procedure SetTheme(const Value: TGridTheme);
   public
     // Constructor redefinido
     constructor Create(Owner:TCustomizeGrid);
@@ -266,7 +266,7 @@ type
 
 
     procedure _PaintArrowUp(Canvas: TCanvas; var Rect: TRect);
-    procedure _PaintArrowDown(Canvas: TCanvas; var Rect: TRect);
+    // procedure _PaintArrowDown(Canvas: TCanvas; var Rect: TRect);
 
     // Ordenacion para una determinada columna.
     function _AppliedSort(AColumn:TColumn):TStateSort;
@@ -422,9 +422,6 @@ var
   _NewColor:TColor;
   _MustPaint, _MustPaintBitmap, _MustPaintText:Boolean;
   _Bitmap:TBitmap;
-  _CellRect:TRect;
-  _point:TPoint;
-
 
   //············································································
   procedure __DrawMemoCell(ACanvas: TCanvas; const Rect: TRect; Value:String; AColor:TColor);
@@ -543,50 +540,13 @@ var
     INITIAL_FIXED_COLOR = clBtnFace;  // {$00464646}
     INITIAL_SELECTED_COLOR = clHighLight{clGrayText};
   var
-    TitRect, IndRect, CellRect:TRect;
+    TitRect, IndRect:TRect;
     _fixedColor, _SelColor, _TitleColor:TColor;
   begin
-
-//    // Segun el tema...
-//    if (Self.FFlatStyle.FlatTheme = tmDefault) then begin
-//      _fixedColor := FGrid.FixedColor;
-//      _SelColor := clHighLight;
-//      _TitleColor := clBlack;
-//    end
-//    else begin
-//      _fixedColor := $00464646;
-//      _SelColor := clGrayText;
-//      _TitleColor := clWhite;
-//    end;
-
-//+G PENDIENTE
-//      if (DataCol < FixedCols) then begin
-//
-//        FGrid.FixedColor := _fixedColor;
-//
-//        // Rectangulo para la columna de selección
-//        CellRect.Left := Rect.Left;
-//        CellRect.Right := Rect.Right;
-//        CellRect.Top := Rect.Top;
-//        CellRect.Bottom := Rect.Bottom;
-//        // Color
-//        FGrid.Canvas.Pen.Color := clLtGray;
-//        FGrid.Canvas.Brush.Color := _fixedColor;
-//        // Rectangulo de seleccion
-//        FGrid.Canvas.Rectangle(CellRect);
-//
-//        FGrid.Canvas.Pen.Color := clBlack;
-//        _point.X := Rect.Left + 1;
-//        _point.Y := Rect.Bottom;
-//        FGrid.Canvas.PenPos := _point;
-//        FGrid.Canvas.LineTo(Rect.Right, Rect.Bottom + 1);
-//        // Vertical
-//        _point.X := Rect.Right;
-//        _point.Y := Rect.Top + 1;
-//        FGrid.Canvas.PenPos := _point;
-//        FGrid.Canvas.LineTo(Rect.Right, Rect.Bottom + 1);
-//      end;
-
+    // ini
+    _fixedColor := clBtnFace;
+    _TitleColor := clBtnFace;
+    _SelColor := clBtnFace;
 
     // ============================  TITULO  ================================
     // Rectangulo para las celdas de títulos
@@ -1046,6 +1006,7 @@ begin
   end;
 end;
 
+{
 //: Método de acceso a la propiedad FlatTheme.
 procedure TFlatStyle.SetTheme(const Value: TGridTheme);
 begin
@@ -1059,6 +1020,7 @@ begin
     end;
   end;
 end;
+}
 
 
 { TAlternativeColors ==========================================================}
@@ -1234,6 +1196,7 @@ begin
 
 end;
 
+{
 procedure TCustomizeGrid._PaintArrowDown(Canvas: TCanvas; var Rect: TRect);
 var
   APolyLine: Array[0..2] of TPoint;
@@ -1255,7 +1218,7 @@ begin
     Rectangle(Rect.Right-13, Rect.Top+3, Rect.Right-1, Rect.Top+15);
 
     // Dibujamos la flecha
-    Pen.Color := clGray{clBlack};
+    Pen.Color := clGray;
     APolyLine[0]:=Point(Rect.Right-4, Rect.Top+5);
     APolyLine[1]:=Point(Rect.Right-11, Rect.Top+5);
     APolyLine[2]:=Point(Rect.Right-8, Rect.Top+11);
@@ -1269,6 +1232,7 @@ begin
     Pen.Color := SaveCol;
   end;
 end;
+}
 
 procedure TCustomizeGrid._PaintArrowUp(Canvas: TCanvas; var Rect: TRect);
 var

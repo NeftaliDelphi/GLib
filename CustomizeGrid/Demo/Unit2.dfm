@@ -513,8 +513,7 @@ object Form1: TForm1
   object ADOConnection1: TADOConnection
     Connected = True
     ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\Archivos de prog' +
-      'rama\Archivos comunes\Borland Shared\Data\dbdemos.mdb;Persist Se' +
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\Program Files (x86)\Common Files\Borland Shared\Data\dbdemos.mdb;Persist Se' +
       'curity Info=False'
     LoginPrompt = False
     Mode = cmShareDenyNone

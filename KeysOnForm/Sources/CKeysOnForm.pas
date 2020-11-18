@@ -1,5 +1,5 @@
-{: TKeysOnForm  Component Version 1.0 - Suite GLib
-   Copyright (©) 2005,  by Germán Estévez (Neftalí)
+{: TKeysOnForm  Component Version 1.4 - Suite GLib
+   Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
 TKeysOnForm 1.0: Permite gestionar de forma sencilla (sin código) algunas de
 las combinaciones de teclas más utilizadas en los formularios. Basta con soltar

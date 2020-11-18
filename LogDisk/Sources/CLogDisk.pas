@@ -1,6 +1,6 @@
 {
-TlogDisk  Component Version 1.3 - Suite GLib
-Copyright (©) 2009,  by Germán Estévez (Neftalí)
+TlogDisk  Component Version 1.4 - Suite GLib
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite crear un fichero de los de la aplicación con operaciones mínimas
   por parte del programador. Basta con colocarel componente en el formulario

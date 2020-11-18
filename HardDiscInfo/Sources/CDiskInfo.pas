@@ -1,6 +1,6 @@
 {
-TDiskInfo  Component Version 1.2 - Suite GLib
-Copyright (©) 2005,  by Germán Estévez (Neftalí)
+TDiskInfo  Component Version 1.4 - Suite GLib
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite obtener información completa acerca de un disco, ya sea local,
   diskette, unidad de red,...
@@ -144,7 +144,6 @@ type
     function _CallDLLFunction(const dllname, functionname: string):String;
 
     procedure SetDriveLetter(const Value: Char);
-    procedure SetDriveType(const Value: TDriveType);
 
     //: Procedimientos de escrivtura vacía (las propiedades no se esciben).
     procedure SetEmptySizeInfo(const Value: TSizeInfo);
@@ -394,10 +393,6 @@ begin
 
 end;
 
-procedure TDiskInfo.SetDriveType(const Value: TDriveType);
-begin
-  // Nada
-end;
 
 procedure TDiskInfo.SetEmptySizeInfo(const Value: TSizeInfo);
 begin

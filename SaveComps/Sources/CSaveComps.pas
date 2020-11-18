@@ -1,6 +1,6 @@
 {
 TSaveComps  Component Version 1.4 - Suite GLib
-Copyright (©) 2005,  by Germán Estévez (Neftalí)
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite guardar la posicion de todos los controles que se encuentran en el
   formulario. Utiliza un fichero INI.
@@ -228,7 +228,7 @@ var
   IniFile: TIniFile;
   prop: PPropInfo;
   i, j, k, Value, Index: Integer;
-  s, ValueStr, compName, ClassStr, ParentStr: string;
+  ValueStr, compName, ClassStr, ParentStr: string;
   comp: TComponent;
   TS, TSValues: TStrings;
   CompNotExist:TStringList;

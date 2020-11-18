@@ -1,6 +1,6 @@
 {
-TPanelCuad  Component Version 1.0 - Suite GLib
-Copyright (©) 2005,  by Germán Estévez (Neftalí)
+TPanelCuad  Component Version 1.4 - Suite GLib
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite crear un panel con cuadrícula.
   Se puede definir el color y ancho de la cuad´ricula que se quiere.

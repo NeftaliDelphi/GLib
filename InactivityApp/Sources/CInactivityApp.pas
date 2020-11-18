@@ -1,6 +1,6 @@
 {
-TInactivityApp  Component Version 1.0 - Suite GLib
-Copyright (©) 2007,  by Germán Estévez (Neftalí)
+TInactivityApp  Component Version 1.4 - Suite GLib
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   [ES] Permite detectar en la aplicación donde se utiliza la inactividad de teclado y
   de ratón pasado un determinado tiempo. Configurable por el usuario.

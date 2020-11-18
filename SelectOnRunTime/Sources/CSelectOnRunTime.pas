@@ -1,6 +1,6 @@
 {
 TSelectOnRunTime  Component Version 1.4 - Suite GLib
-Copyright (©) 2005,  by Germán Estévez (Neftalí)
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite seleccionar componentes visuales que haya en un form de forma visual
   como se hace con las imágenes en los programas de diseño o con los controles
@@ -275,11 +275,13 @@ const
   minHeight = 20;
 var
   newPos: TPoint;
-  frmPoint : TPoint;
   _CanMove, _CanMoveOutParent:Boolean;
   newLeft, newTop, newRight, newBottom:Integer;
   parentRight, parentBootom:Integer;
 begin
+  // ini
+  parentRight := 0;
+  parentBootom := 0;
   // Se está reposicionando?
   if (Self._InReposition) then begin
 
@@ -698,8 +700,6 @@ end;
 
 //: Procedimiento de escritura a la propiedad.
 procedure TSelectOnRunTime.SetActive(const Value: Boolean);
-var
-  i:Integer;
 begin
 
   // No ha cambiado?
@@ -747,6 +747,10 @@ var
   wc:TWinControl;
   repos:Boolean;
 begin
+
+  // ini
+  repos := False;
+  wc := nil;
 
   // Destruyendo el componente?
   if (csDestroying in Self.ComponentState) then begin

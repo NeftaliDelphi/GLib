@@ -1,5 +1,5 @@
-{: TSortListBox  Component Version 1.0 - Suite GLib
-   Copyright (©) 2005,  by Germán Estévez (Neftalí)
+{: TSortListBox  Component Version 1.4 - Suite GLib
+   Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Componente de lista con imágenes de ordenar.
   Componente de lista pensado paa sacar una serie de elementos con posibilidad

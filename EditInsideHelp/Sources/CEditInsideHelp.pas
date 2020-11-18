@@ -1,6 +1,6 @@
 {
-TEditInsideHelp  Component Version 1.0 - Suite GLib
-Copyright (©) 2005,  by Germán Estévez (Neftalí)
+TEditInsideHelp  Component Version 1.4 - Suite GLib
+Copyright (©) 2020,  by Germán Estévez (Neftalí)
 
   Permite definir un texto de ayuda en la parte interna del control de edición.
   El texto desaparace cuando el control contiene algun texto que el usuario ha
@@ -35,7 +35,9 @@ unit CEditInsideHelp;
 ========================================================================
   Historia de las Versiones
 ------------------------------------------------------------------------
-
+  18/11/2020
+  * Eliminar Hints y warnings
+  * Actualizar para compilar
 	09/12/2008
 	*		Changed InsideHelpColor by InsideHelpFont for more customization possibilities.
 			(thanks Ariel Martín  from Cuba)	
@@ -176,7 +178,6 @@ end;
 procedure TEditInsideHelp.WMPaint(var Message: TWMPaint);
 var
   MCanvas: TControlCanvas;
-  //DrawBounds: TRect;
 begin
 
   // Casos en los que no hacemos nada
@@ -188,7 +189,6 @@ begin
   inherited;
 
   MCanvas := TControlCanvas.Create;
-  //DrawBounds := ClientRect;
 
   // proteccion
   try
